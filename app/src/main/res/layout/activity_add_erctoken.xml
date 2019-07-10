@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg_color"
+    tools:context=".ui.activity.AddERCTokenActivity">
+
+    <include layout="@layout/activity_toolbar_base" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/edit_view"
+        android:layout_width="@dimen/dimen_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen_10dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:background="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_content">
+
+        <EditText
+            android:id="@+id/input_edit"
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="@dimen/dimen_80dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:hint="@string/please_input_address"
+            android:paddingLeft="@dimen/dimen_10dp"
+            android:paddingVertical="@dimen/dimen_15dp"
+            android:textCursorDrawable="@drawable/shape_et_cursor_color"
+            android:textSize="@dimen/font_16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/scan_img"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <ImageView
+            android:id="@+id/scan_img"
+            android:layout_width="@dimen/dimen_25dp"
+            android:layout_height="@dimen/dimen_25dp"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:background="@drawable/scan_qr"
+            app:layout_constraintBottom_toBottomOf="@id/input_edit"
+            app:layout_constraintLeft_toRightOf="@id/input_edit"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/input_edit" />
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:layout_width="@dimen/dimen_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen_10dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:text="@string/add_erc_token_tips"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_view"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        style="@style/Button_bg_style"
+        android:layout_marginBottom="@dimen/dimen_40dp"
+        android:text="@string/cofirm_submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

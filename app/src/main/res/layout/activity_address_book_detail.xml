@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg_color"
+    tools:context=".ui.activity.AddressBookDetailActivity">
+
+    <include layout="@layout/activity_toolbar_base" />
+
+    <com.bankledger.safegem.ui.view.CustomEditText
+        android:id="@+id/remark"
+        android:layout_width="@dimen/dimen_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:hint="@string/add_remark"
+        android:maxLength="12"
+        android:paddingLeft="@dimen/dimen_10dp"
+        android:paddingVertical="@dimen/dimen_15dp"
+        android:textCursorDrawable="@drawable/shape_et_cursor_color"
+        android:textSize="@dimen/font_16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_content" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/code_view"
+        android:layout_width="@dimen/dimen_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/dimen_20dp"
+        android:paddingTop="@dimen/dimen_32dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/remark">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="@dimen/main_card_h"
+            android:layout_height="@dimen/main_card_h"
+            android:background="@color/red"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingHorizontal="@dimen/dimen_10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/copy"
+        style="@style/Button_bg_style"
+        android:layout_width="@dimen/main_card_h"
+        android:layout_marginHorizontal="@dimen/dimen_10dp"
+        android:layout_marginTop="@dimen/dimen_40dp"
+        android:text="@string/copy"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/delete_btn"
+        app:layout_constraintTop_toBottomOf="@id/code_view" />
+
+    <Button
+        android:id="@+id/delete_btn"
+        style="@style/Button_bg_style"
+        android:layout_width="@dimen/main_card_h"
+        android:layout_marginHorizontal="@dimen/dimen_10dp"
+        android:layout_marginTop="@dimen/dimen_40dp"
+        android:text="@string/delete"
+        app:layout_constraintLeft_toRightOf="@id/copy"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/code_view" />
+</android.support.constraint.ConstraintLayout>

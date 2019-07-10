@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg_color">
+
+    <include layout="@layout/activity_toolbar_base" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="@dimen/dimen_0dp"
+        android:layout_height="@dimen/dimen_0dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_content">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/content_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10dp">
+
+                <TextView
+                    android:id="@+id/content_tv"
+                    style="@style/Horizontal_center_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/white_bg_corner"
+                    android:padding="@dimen/dimen_10dp"
+                    android:text="@string/eos_create_content"
+                    android:textSize="@dimen/font_14sp" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/reg_tip"
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:text="@string/reg_account_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_16sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/content_layout" />
+
+            <EditText
+                android:id="@+id/reg_edit"
+                style="@style/Horizontal_center_style"
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:background="@drawable/white_bg_corner"
+                android:hint="@string/reg_account_name"
+                android:digits="aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ12345"
+                android:maxLength="12"
+                android:paddingHorizontal="@dimen/dimen_10dp"
+                android:paddingVertical="@dimen/dimen_10dp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/shape_et_cursor_color"
+                android:textSize="@dimen/font_14sp"
+                app:layout_constraintTop_toBottomOf="@id/reg_tip" />
+
+            <TextView
+                android:id="@+id/rule_tip"
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_6dp"
+                android:text="@string/rule_register"
+                android:textSize="@dimen/font_12sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/reg_edit" />
+
+            <TextView
+                android:id="@+id/owner_key_tip"
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:text="@string/eos_owner"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_16sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/rule_tip" />
+
+            <TextView
+                android:id="@+id/owner_key_edit"
+                style="@style/Horizontal_center_style"
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:background="@drawable/white_bg_corner"
+                android:paddingHorizontal="@dimen/dimen_10dp"
+                android:paddingVertical="@dimen/dimen_10dp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/shape_et_cursor_color"
+                android:textSize="@dimen/font_14sp"
+                app:layout_constraintTop_toBottomOf="@id/owner_key_tip" />
+
+            <TextView
+                android:id="@+id/active_key_tip"
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:text="@string/eos_active"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_16sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/owner_key_edit" />
+
+            <TextView
+                android:id="@+id/active_key_edit"
+                style="@style/Horizontal_center_style"
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:background="@drawable/white_bg_corner"
+                android:paddingHorizontal="@dimen/dimen_10dp"
+                android:paddingVertical="@dimen/dimen_10dp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/shape_et_cursor_color"
+                android:textSize="@dimen/font_14sp"
+                app:layout_constraintTop_toBottomOf="@id/active_key_tip" />
+
+            <Button
+                android:id="@+id/commit_btn"
+                style="@style/Button_bg_style"
+                android:layout_marginTop="@dimen/dimen_40dp"
+                android:text="@string/create_btn_str"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/active_key_edit" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

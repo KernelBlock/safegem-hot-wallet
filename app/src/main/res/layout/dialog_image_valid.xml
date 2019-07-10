@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_16dp">
+
+    <ImageView
+        android:id="@+id/img_valid"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="aaaaaaaaaaaaa"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        />
+
+    <com.bankledger.safegem.ui.view.CustomEditText
+        android:id="@+id/et_valid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:hint="@string/hint_img_vcode"
+        android:textCursorDrawable="@drawable/shape_et_cursor_color"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

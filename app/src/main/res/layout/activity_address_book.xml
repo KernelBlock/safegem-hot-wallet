@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/activity_toolbar_base" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/top_view"
+        android:layout_width="@dimen/dimen_0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/text_gray_color2"
+        android:padding="@dimen/dimen_6dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_content">
+
+        <EditText
+            android:id="@+id/seaerch_edit"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_32dp"
+            android:background="@drawable/selector_edit_frame"
+            android:drawableLeft="@drawable/search_icon"
+            android:hint="@string/searcy_coin_remark"
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:textCursorDrawable="@drawable/shape_et_cursor_color"
+            android:textSize="@dimen/font_14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="@dimen/dimen_0dp"
+        android:layout_height="@dimen/dimen_0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_view" />
+
+    <TextView
+        android:id="@+id/tv_null_data"
+        android:layout_width="@dimen/dimen_0dp"
+        android:layout_height="@dimen/dimen_0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_view"
+        android:gravity="center"
+        android:background="@color/white"
+        android:text="@string/null_data"
+        android:textSize="@dimen/font_14sp" />
+
+</android.support.constraint.ConstraintLayout>

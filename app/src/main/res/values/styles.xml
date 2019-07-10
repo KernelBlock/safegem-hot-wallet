@@ -1,0 +1,124 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="StartTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/login_bg</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- 水平居中 -->
+    <style name="Horizontal_center_style">
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+    </style>
+    <!-- 垂直居中 -->
+    <style name="Vertical_center_style">
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+    </style>
+    <!-- 居中 -->
+    <style name="Center_style">
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+    </style>
+    <!-- 文字阴影 -->
+    <style name="StyleCardShade">
+        <item name="android:textColor">@color/car_font_color</item>
+        <item name="android:shadowColor">@color/shaow_color</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="StyleWrapeSize">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="StyleCoinSize">
+        <item name="android:layout_width">@dimen/dimen_54dp</item>
+        <item name="android:layout_height">@dimen/dimen_54dp</item>
+    </style>
+
+    <!--一级标题-->
+    <style name="title_text_style">
+        <item name="android:textSize">@dimen/font_18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="StyleLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divder_h</item>
+        <item name="android:background">@color/line</item>
+    </style>
+    <!--水波纹-->
+    <style name="ripple_style">
+        <item name="android:clickable">true</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="tootle_style">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:button">@drawable/switch_track</item>
+        <item name="android:checked">false</item>
+        <item name="android:textOff">@null</item>
+        <item name="android:textOn">@null</item>
+    </style>
+
+    <style name="Button_bg_style">
+        <item name="android:background">@drawable/blue_bg_cornor</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/dimen_40dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_14sp</item>
+        <item name="android:paddingLeft">@dimen/dimen_40dp</item>
+        <item name="android:paddingRight">@dimen/dimen_40dp</item>
+    </style>
+
+    <style name="CustomCheckBoxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_select</item>
+    </style>
+
+    <style name="Middle_Dot_style">
+        <item name="android:layout_width">@dimen/h_monitor</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Loin_Regi_Edit_style" parent="Vertical_center_style">
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">@dimen/font_14sp</item>
+        <item name="android:textCursorDrawable">@drawable/shape_et_cursor_color</item>
+    </style>
+
+    <style name="Pwd_style">
+        <item name="android:maxLength">20</item>
+        <item name="android:digits">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`¬!"£$%^*()~=#{}[];':,./?/*-_+&#060;&#062;&#064;&#038;</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:textSize">@dimen/font_14sp</item>
+    </style>
+    <style name="MyTablayoutstyle" parent="Base.Widget.Design.TabLayout">
+        <item name="tabBackground">@color/white</item>
+        <item name="tabIndicatorColor">@color/blue_bg</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabSelectedTextColor">@color/blue_bg</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/blue_bg</item>
+    </style>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg_color"
+    tools:context=".ui.activity.SettingActivity">
+
+    <include layout="@layout/activity_toolbar_base" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/lange_view"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dimen_52dp"
+        android:background="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:gravity="center_vertical"
+            android:text="@string/lange_str"
+            android:textColor="@color/black"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/lang_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:gravity="center_vertical"
+            android:text="简体中文"
+            android:textColor="@color/text_gray_color"
+            app:layout_constraintRight_toLeftOf="@id/lang_img" />
+
+        <ImageView
+            android:id="@+id/lang_img"
+            style="@style/StyleWrapeSize"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            style="@style/StyleLine"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

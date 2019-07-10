@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg_color"
+    tools:context=".ui.activity.TimeAdjustActivity">
+
+    <include layout="@layout/activity_toolbar_base" />
+
+    <ImageView
+        android:id="@+id/code_img"
+        android:layout_width="@dimen/code_size"
+        android:layout_height="@dimen/code_size"
+        android:layout_marginTop="@dimen/dimen_25dp"
+        android:paddingLeft="@dimen/dimen_10dp"
+        android:paddingVertical="@dimen/dimen_15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_content" />
+
+    <TextView
+        android:id="@+id/time_tv"
+        style="@style/StyleWrapeSize"
+        android:layout_marginTop="@dimen/dimen_25dp"
+        android:text="@string/create_qrcode_str"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/code_img" />
+
+    <TextView
+        style="@style/StyleWrapeSize"
+        android:layout_marginTop="@dimen/dimen_40dp"
+        android:gravity="center_horizontal"
+        android:text="@string/time_adjust_tip"
+        android:textColor="@color/text_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/time_tv" />
+
+</android.support.constraint.ConstraintLayout>

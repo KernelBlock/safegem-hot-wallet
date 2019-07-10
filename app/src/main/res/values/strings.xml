@@ -1,0 +1,449 @@
+<resources>
+
+        
+    <string name="app_name">SafeGem</string>
+        
+    <string name="ok">OK</string>
+        
+    <string name="hint_scan">Scan</string>
+        
+    <string name="hint_find">Align QR code to Scan</string>
+        
+    <string name="hint_camera_framework_bug">Sorry, there is a problem with the camera and the app does not have permission to access the camera. </string>
+        
+    <string name="wallet_title">SafeGem Hot Wallet</string>
+        
+    <string name="message_str">MessageS</string>
+        
+    <string name="sys_setting_str">System Settings </string>
+        
+    <string name="buy_wallet_str">Purchase Cold Wallet</string>
+        
+    <string name="help_str">Help</string>
+        
+    <string name="about_str">About</string>
+
+    <string name="erc">ERC20</string>
+        
+    <string name="candy_box">Candy Box</string>
+        
+    <string name="address">Address Book</string>
+        
+    <string name="fee_str">Best Transaction Fee</string>
+        
+    <string name="trade_str">Transaction Record</string>
+        
+    <string name="all_str">All</string>
+        
+    <string name="bluetooth_note">Bluetooth Information</string>
+
+        
+    <string name="about_us_str">About Us</string>
+        
+    <string name="use_agre_str">Use Agreement</string>
+        
+    <string name="hide_str">Privacy Policy</string>
+        
+    <string name="update_str">Cold Wallet Update</string>
+        
+    <string name="current_versin_str">Current Version</string>
+        
+    <string name="center_user_str">Personal Center</string>
+        
+    <string name="header_str">Avatar</string>
+        
+    <string name="nick_str">Nickname</string>
+        
+    <string name="id_str">ID</string>
+        
+    <string name="phone_str">Phone Number</string>
+        
+    <string name="mesage_str">Message Center</string>
+        
+    <string name="setting_str">Settings</string>
+        
+    <string name="lange_str">Language</string>
+        
+    <string name="monotior_str">Monitor Account Details</string>
+        
+    <string name="total_str">Total Assets</string>
+        
+    <string name="receive_str">Receive</string>
+        
+    <string name="update_balance_str">Update Balance to Cold Wallet</string>
+        
+    <string name="curern_str">Currencies</string>
+        
+    <string name="asset_str">Hide currencies with 0</string>
+        
+    <string name="erc20_str">ERC20 Token</string>
+        
+    <string name="erctoken_hint">Token Name/Abbreviation/Contract Address </string>
+        
+    <string name="summary_str">Introduction</string>
+
+        
+    <string name="send_time">Release Time </string>
+
+    <string name="coin_name">Currency Name</string>
+
+    <string name="send_total">Total Amount</string>
+        
+    <string name="official_url">Official Website</string>
+        
+    <string name="treaty_time">Contract Address</string>
+        
+    <string name="precision_str">Decimals</string>
+        
+    <string name="active_str">Add to hot wallet monitoring asset list</string>
+
+    <string name="anwang_url">www.anwang.com</string>
+        
+    <string name="show_code">Show Activation QR Code </string>
+        
+    <string name="scan_tip">Please Use cold Wallet to Scan QR Code </string>
+        
+    <string name="complete_str">Complete</string>
+        
+    <string name="reveieve_editstr">Receipt Amount</string>
+        
+    <string name="copy_str">Copy Address</string>
+        
+    <string name="copy">Copy</string>
+        
+    <string name="close_str">Close</string>
+        
+    <string name="code_up_str">This QR code only contains the address balance monitored by the hot end</string>
+        
+    <string name="update_tip">Sync Address Balance</string>
+        
+    <string name="update_amout">Sync Balance</string>
+        
+    <string name="rece_tip">Receive</string>
+        
+    <string name="send_tip">Send Record</string>
+        
+    <string name="trade_detail">Transaction Details</string>
+        
+    <string name="issue_money">sender</string>
+        
+    <string name="rece_money">Receiver</string>
+        
+    <string name="miner_money">Fee</string>
+        
+    <string name="trade_id">Transaction ID</string>
+        
+    <string name="bloak_str">Block</string>
+        
+    <string name="trade_time">Transaction Time</string>
+        
+    <string name="trade_remark">transaction remark</string>
+        
+    <string name="remark_tip">can add text remark</string>
+        
+    <string name="copy_url">Copy Transaction ID</string>
+        
+    <string name="input_tip">Please enter keyword</string>
+        
+    <string name="my_address">My address</string>
+        
+    <string name="contact_address_detail">contact address -%s</string>
+        
+    <string name="contact_address">contact address</string>
+        
+    <string name="add_address">Add address</string>
+        
+    <string name="add">Add</string>
+    <string name="add_walet">Add wallet</string>
+        
+    <string name="save_str">Save</string>
+        
+    <string name="select_currency">Select currency</string>
+        
+    <string name="wallet_address">Address</string>
+        
+    <string name="remark">Remarks</string>
+        
+    <string name="select_curr">Select currency</string>
+        
+    <string name="confirm_str">OK</string>
+        
+    <string name="next_step_str">Next</string>
+        
+    <string name="login_str">Login</string>
+        
+    <string name="register_str">Register</string>
+        
+    <string name="forget_pwd_str">Forgot password</string>
+        
+    <string name="set_pwd_str">Set password</string>
+        
+    <string name="new_pwd_str">Please enter your login password</string>
+        
+    <string name="repeat_pwd_str">Repeat Login Password</string>
+        
+    <string name="input_num_str">Please enter your mobile number</string>
+        
+    <string name="input_pwd_str">Please enter the login password</string>
+        
+    <string name="input_code_str">Please enter the verification code</string>
+        
+    <string name="forget_pwd"><u>Forgot your password?</u></string>
+        
+    <string name="no_num">No account?</string>
+        
+    <string name="has_num">Existing account?</string>
+        
+    <string name="register_tv"><u>Register now</u></string>
+        
+    <string name="login_tv"><u>Login now</u></string>
+        
+    <string name="get_code_str">Get verification code</string>
+        
+    <string name="hasred_str">has read and agreed</string>
+        
+    <string name="checkbox_text"><Data><![CDATA[I have read and agree to <font color="#00AAC6"><b><<Terms of Service>></b></font>]]> </Data></string>
+        
+    <string name="agree_str">&#060;&#060;SafeGem User Agreement&#062;&#062;</string>
+
+    <string name="agree_str_title">SafeGem License Agreement</string>
+        
+    <string name="country_str">country code</string>
+        
+    <string name="search_country_str">Search country code, English, Chinese </string>
+        
+    <string name="has_send_str">has been</string>
+        
+    <string name="send_code_str">send verification code</string>
+        
+    <string name="hint_img_vcode">Image verification code</string>
+        
+    <string name="hint_valid_img">Verify image</string>
+        
+    <string name="exit_login">Logout</string>
+        
+    <string name="hint_str">Prompt</string>
+
+    <string name="remove_wallet">All data will be deleted after the wallet is deleted.</string>
+
+    <string name="confirm_exit_login">Confirm Logging Out?</string>
+        
+    <string name="coin_str">default currency</string>
+        
+    <string name="record_str">voice broadcast</string>
+        
+    <string name="version_str">Version</string>
+    <string-array name="language_arr">
+        <item>English</item>
+        <item>中文简体</item>
+        <item>中文繁體</item>
+    </string-array>
+
+    <string name="coutry_code_str">86</string>
+    <string name="pwd_tip">Please enter password</string>
+    <string name="confrim_pwd_tip">Please confirm that password entered twice are identical</string>
+        
+    <string name="phone_tip1">Please enter mobile number</string>
+        
+    <string name="phone_tip2">Please enter the correct mobile number</string>
+        
+    <string name="code_tip1">SMS Verification Code</string>
+        
+    <string name="check_tip">Please check the user agreement</string>
+
+    <string name="seconds_str">seconds</string>
+
+    <string name="update_nick">Modify nickname</string>
+        
+    <string name="input_nick_name">Nickname cannot be empty</string>
+        
+    <string name="nick_name_success">Modified successfully</string>
+        
+    <string name="header_success">Avatar modification succeeded</string>
+        
+    <string name="net_error">Please check your current network</string>
+      
+    <string name="request_error">System busy, please try again later</string>
+    <string name="repeat_str">reply</string>
+        
+    <string name="takecanera">take a picture</string>
+        
+    <string name="album">Select from album</string>
+        
+    <string name="cancle">Cancel</string>
+        
+    <string name="add_success">add success</string>
+        
+    <string name="no_sdcard_tip">The device does not have an SD card!</string>
+        
+    <string name="code_err">Unrecognized QR code</string>
+        
+    <string name="more_str">More</string>
+        
+    <string name="add_wallet">Add cold wallet</string>
+        
+    <string name="scan_tip_str">Scan</string>
+        
+    <string name="add_repeat">This address has been added</string>
+        
+    <string name="please_add_wallet">Please go to bind wallet</string>
+        
+    <string name="address_count">Addresses</string>
+        
+    <string name="please_go_wallet_monitor">Please go to the corresponding wallet to add monitoring address</string>
+        
+    <string name="please_go_wallet_send_tx">Please go to the corresponding wallet to send transaction</string>
+
+    <string name="best_fee_value">%s %s/%s</string>
+        
+    <string name="null_data">No more data...</string>
+        
+    <string name="select_coin">Select currency</string>
+        
+    <string name="copy_success">copy successful</string>
+        
+    <string name="wallet_no_tips">The current wallet does not exist, please create a wallet</string>
+        
+    <string name="not_have">none</string>
+        
+    <string name="max_wallet">The current number of cold wallets has reached the upper limit</string>
+        
+    <string name="no_update_tip">No balance update</string>
+        
+    <string name="select_coin_tip">Please select currency</string>
+        
+    <string name="select_address_tip">Please enter a valid address</string>
+        
+    <string name="address_detail">address details</string>
+
+    <!--Cold wallet upgrade-->
+    <string name="cold_wallet_update">Cold wallet upgrade</string>
+    <string name="cold_wallet_exit">Confirm you need to quit upgrade？</string>
+    <string name="cold_wallet_connecting_bluetooth">Connecting bluetooth...</string>
+    <string name="cold_wallet_bluetooth_connected">Updating the cold wallet, please wait a moment...</string>
+    <string name="cold_wallet_dowolod_fail">Cold wallet update timeout, please try again.</string>
+    <string name="cold_wallet_bluetooth_disconnected">Bluetooth disconnected</string>
+    <string name="cold_wallet_bluetooth_connection_failure">Bluetooth disconnected</string>
+    <string name="cold_wallet_update_success">Cold wallet upgrade success</string>
+    <string name="cold_wallet_md5_not_correct">The latest version has not passed verification and cannot be upgraded. Please try again later!</string>
+    <string name="cold_wallet_already_lastest_version">The cold end has the latest version, no need to upgrade! </string>
+    <string name="cold_wallet_retry_update">Bluetooth connection has been disconnected. Please upgrade again</string>
+        
+    <string name="new_message_wallet">. You have balance synced to the cold wallet</string>
+        
+    <string name="user_wallet_tip">Congratulations on using SafeGem Hot Wallet!</string>
+        
+    <string name="please_add_wallet_tip">Please add a wallet!</string>
+        
+    <string name="delete">delete</string>
+        
+    <string name="delete_address">Note Confirm deleting the address?</string>
+        
+    <string name="add_remark">Please add a remark</string>
+        
+    <string name="remark_no_empty">Remarks cannot be empty</string>
+        
+    <string name="create_qrcode_str">Generate QR Code</string>
+        
+    <string name="eos_manager">EOS Management</string>
+
+    <string name="inpu_text_content">Please enter text content</string>
+        
+    <string name="send">send</string>
+        
+    <string name="from">from</string>
+        
+    <string name="send_broad">Send Notice</string>
+        
+    <string name="receive_broad">Receipt Notice</string>
+        
+    <string name="send_success">Send Successfully</string>
+        
+    <string name="receive_success">Received Successfully</string>
+        
+    <string name="update_version_tips">Update Notification</string>
+        
+    <string name="submit_new_token">Add new token</string>
+        
+    <string name="please_input_address">Please enter the correct smart contract address </string>
+        
+    <string name="cofirm_submit">confirm submission </string>
+        
+    <string name="please_eth_address">Please add monitoring Ethereum address first</string>
+        
+    <string name="time_adjust_tip">The QR code is used for cold wallet calibration time, please turn on cold wallet scan calibration!</string>
+        
+    <string name="time_adjust_title">Time Calibration</string>
+        
+    <string name="no_open_tip">The function is not open yet</string>
+        
+    <string name="use_agreement_url">file:///android_asset/protocol/safegem-ch.html</string>
+        
+    <string name="use_aggrement">User Agreement</string>
+        
+    <string name="update">update</string>
+        
+    <string name="update_fail">Update failed</string>
+        
+    <string name="dowload_tip">Downloading...</string>
+        
+    <string name="sending_str"> is sending </string>
+    <string name="register_help_str">Note: Registration is f or your convenience in participating in related activities to receive rewards, etc. </string>
+        
+    <string name="select_address">Select address </string>
+        
+    <string name="coin_message">Currency information</string>
+        
+    <string name="searcy_coin_remark">Support search of currency, address, notes </string>
+        
+    <string name="update_success">Modified successfully </string>
+        
+    <string name="has_add_asset_list">Added asset list </string>
+        
+    <string name="has_remove_asset_list">removed asset list</string>
+        
+    <string name="add_wallet_tip"><![CDATA[Please scan the cold wallet, My -> Bind Wallet]]> </string>
+
+    <string name="add_erc_token_tips">Note\n1. You only need to provide the token\'s contract address, and the token would be added after approval. \n2. If you need to display your token logo, please send the following specified information to 123***@***.com\n① contract address\n②logo.png (500 pixels × 500 pixels \n③ company, personal into the official website, etc. Information\n④Other facts </string>
+        
+        
+    <string name="monitor_tip_content">Please scan the cold wallet QR code, My -> Monitor Asset </string>
+        
+    <string name="time_refresh">Automatically refresh after %1$s seconds</string>
+        
+    <string name="pwd_length_tip">The password length is 6~20 characters</string>
+
+    <string name="monitor_title">Monitor Asset Details</string>
+
+    <string name="hint_cold_wallet_update">Check that your cold wallet needs to be upgraded, please upgrade first</string>
+    <string name="hint_hot_wallet_update">Check that your hot wallet needs to be upgraded, please upgrade first.</string>
+    <string name="please_anwang_tip">official website：www.bankledger.com</string>
+    <string name="eos_create_content">To create an EOS account, you need to submit an EOS public key. With this public key, you can register for EOS account in SAFEGEM Hot Wallet APP. It takes a certain amount of time to register, and EOS transaction can be completed after registration..</string>
+    <string name="eos_account_name_tips">Please enter the account name</string>
+    <string name="eos_account_name_rule_tips">Account name must be 12 characters</string>
+    <string name="tx_repeat_send_tips">The transaction has been sent and cannot be sent repeatedly.</string>
+    <string name="reg_account_name">Account name</string>
+    <string name="rule_register">12 characters, only supporting numbers 1-5, letters a-z, can not be modified after registration</string>
+    <string name="eos_owner">EOS Owner Public Key</string>
+    <string name="eos_active">EOS Active Public Key</string>
+    <string name="create_btn_str">Create or import</string>
+    <string name="warning_tip">warning</string>
+    <string name="delet_wallet_success">Delete successful</string>
+    <string name="create_eos_tips">You did not create or import accounts, scan for cold wallet EOS information to create or import</string>
+    <string name="has_eos_content">To view information about imported or created EOS accounts, please scan the cold wallet for verification</string>
+    <string name="eos_create_success">EOS Account Creation Successful</string>
+    <string name="eos_import_success">EOS Account Import Successful</string>
+    <string name="eos_import_error">EOS account or public key error</string>
+    <string name="eos_block_message">EOS Block Info</string>
+    <string name="eos_has_account">EOS account created</string>
+    <string name="create_account_no_repeat">Duplicate account creation</string>
+    <string name="eos_account_qrcode">Account name QR code</string>
+    <string name="usdt_receive_btc">Acceptance of the transaction</string>
+    <string name="usdt_send_btc">consumption of the transaction</string>
+    <string name="browser">Browser</string>
+    <string name="eos_ram">Memory</string>
+
+    <string name="phone_registered">The mobile phone number has been registered</string>
+    <string name="cannot_emoji">Emoji cannot be included</string>
+
+</resources>

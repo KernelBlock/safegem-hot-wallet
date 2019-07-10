@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_54dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/img"
+        style="@style/StyleWrapeSize"
+        android:background="@drawable/erc_img"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        />
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BTC"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toRightOf="@id/img"
+        app:layout_constraintTop_toTopOf="@id/img"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3个地址"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/font_12sp"
+        app:layout_constraintLeft_toRightOf="@id/img"
+        app:layout_constraintBottom_toBottomOf="@id/img"
+        />
+
+    <TextView
+        android:id="@+id/num_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50.197"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/font_12sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        />
+</android.support.constraint.ConstraintLayout>
